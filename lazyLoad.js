@@ -1,3 +1,4 @@
+// example page https://xn--80apbobeepieg.xn--p1ai/gallery
 let images = document.querySelectorAll('.gallerys .gallery-card');
 
 const lazyLoad = target => {

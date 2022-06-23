@@ -9,7 +9,7 @@ const lazyLoad = target => {
                     let src = img.getAttribute('data-src');
                     img.setAttribute('src', src);
                     div.classList.add('fade-img');
-                  	div.classList.remove('lazy-img');
+                    div.classList.remove('lazy-img');
     
                     observer.disconnect();
                 }
